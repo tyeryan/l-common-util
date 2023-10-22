@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-redis/redis"
 	"github.com/google/wire"
+	"github.com/tyeryan/l-common-util/config"
 	logutil "github.com/tyeryan/l-protocol/log"
 	"github.com/vmihailenco/msgpack"
-	"github.com/yougroupteam/c-common-components/config"
 )
 
 var (
